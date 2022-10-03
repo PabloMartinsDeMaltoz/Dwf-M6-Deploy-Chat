@@ -2,7 +2,8 @@ import { router } from "./router";
 import { getUrlRtDB } from "./bdrt";
 import { Router } from "@vaadin/router";
 
-const URL_BASE = "http://localhost:3000";
+const URL_BASE =
+  "https://dwf-m6-chat.herokuapp.com/";
 const state = {
   data: {
     nombre: "",
