@@ -20,6 +20,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@types/node": "^18.8.0",
     "@vaadin/router": "^1.7.4",
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
