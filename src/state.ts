@@ -3,7 +3,7 @@ import { getUrlRtDB } from "./bdrt";
 import { Router } from "@vaadin/router";
 
 const URL_BASE =
-  "https://dwf-m6-chat.herokuapp.com/";
+  "https://dwf-m6-chat.herokuapp.com";
 const state = {
   data: {
     nombre: "",
