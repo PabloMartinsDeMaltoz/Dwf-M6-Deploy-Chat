@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:front": "parcel build ./src/index.html",
     "build:api": "  tsc  ",
-    "build": "yarn build:api && yarn dev:front",
+    "build": "  yarn dev:front && yarn build:api",
     "dev": "nodemon --watch ./index.ts --exec ts-node ./index.ts ",
     "start": "node ./index.js"
   },
