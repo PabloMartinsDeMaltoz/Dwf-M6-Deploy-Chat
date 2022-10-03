@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:front": "parcel serve ./src/index.html",
+    "dev:front": "parcel build ./src/index.html",
     "build:api": "  tsc  ",
     "build": "yarn build:api && yarn dev:front",
     "dev": "nodemon --watch ./index.ts --exec ts-node ./index.ts ",
