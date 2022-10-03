@@ -1,1 +1,1 @@
-https://dashboard.heroku.com/apps/dwf-m6-chat
+https://dwf-m6-chat.herokuapp.com/
